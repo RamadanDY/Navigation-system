@@ -22,6 +22,9 @@ const User = () => {
   return (
     ///// we then extract the items prop inside this component
     <UsersList items={USERS}/>
+    <CSSTransition in={props.show} timeout={200} classNames="slide-in-left" mountOnEnter unmountOnExit>
+    <aside className='side-drawer' onClick={props.onClick}>{props.children}</aside>);
+  </CSSTransition>
   )
 }
 

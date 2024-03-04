@@ -8,7 +8,6 @@ import {
 import Users from "./User/Pages/Users.jsx";
 import NewPlaces from "./Places/Pages/NewPlace.jsx";
 import MainNavigation from "./shared/Navigation/MainNavigation.jsx";
-// import { Switch } from "@mui/material";
 
 function App() {
   return (
